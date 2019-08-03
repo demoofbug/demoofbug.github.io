@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://demoofbug.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://demoofbug.github.io/" rel="alternate" type="text/html" /><updated>2019-08-03T16:00:32+08:00</updated><id>https://demoofbug.github.io/feed.xml</id><title type="html">程序员日记</title><subtitle>网站简介</subtitle><entry><title type="html">Welcome to asciidoc!</title><link href="https://demoofbug.github.io/posts/welcome-to-asciidoc.html" rel="alternate" type="text/html" title="Welcome to asciidoc!" /><published>2019-07-07T07:51:55+08:00</published><updated>2019-07-07T07:51:55+08:00</updated><id>https://demoofbug.github.io/posts/welcome-to-asciidoc</id><content type="html" xml:base="https://demoofbug.github.io/posts/welcome-to-asciidoc.html">&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;粗体斜体&quot;&gt;粗体，斜体&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;*粗体字* 和 **粗体**
+_斜体字_ 和 __斜体字__
+*_粗斜体_* 和 **__粗斜体__**&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;粗体字&lt;/strong&gt; 和 &lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;斜体字&lt;/em&gt; 和 &lt;em&gt;斜体字&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;粗斜体&lt;/em&gt;&lt;/strong&gt; 和 &lt;strong&gt;&lt;em&gt;粗斜体&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;标记&quot;&gt;标记&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;自挂 #东南# 枝。
+
+自挂 [.small]#东南# 枝
+
+自挂 [.underline]#东南# 枝
+
+自挂 [.line-through]#东南# 枝
+
+自挂 [.big]#东南# 枝&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;自挂 &lt;mark&gt;东南&lt;/mark&gt; 枝。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;自挂 &lt;span class=&quot;small&quot;&gt;东南&lt;/span&gt; 枝&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;自挂 &lt;span class=&quot;underline&quot;&gt;东南&lt;/span&gt; 枝&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;自挂 &lt;span class=&quot;line-through&quot;&gt;东南&lt;/span&gt; 枝&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;自挂 &lt;span class=&quot;big&quot;&gt;东南&lt;/span&gt; 枝&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;上标下标文字&quot;&gt;上标、下标文字&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;10 ^2^ = 100
+
+
+NaHSO ~4~&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;10 &lt;sup&gt;2&lt;/sup&gt; = 100&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;NaHSO &lt;sub&gt;4&lt;/sub&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;/**
+ * @author John Smith &amp;lt;john.smith@example.com&amp;gt;
+ */
+package l2f.gameserver.model;
+
+public abstract class L2Char extends L2Object {
+
+  public static final Short ERROR = 0x0001;
+
+  public void moveTo(int x, int y, int z) {
+    _ai = null;
+    log(&quot;Should not be called&quot;);
+    if (1 &amp;gt; 5) { // wtf!?
+      return;
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="asciidoc" /><category term="Contemporary" /><category term="Fiction" /><category term="Fantasy" /><category term="Romance" /><category term="Historical" /><category term="jekyll" /><summary type="html">粗体，斜体</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://demoofbug.github.io/posts/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-07-07T07:51:55+08:00</published><updated>2019-07-07T07:51:55+08:00</updated><id>https://demoofbug.github.io/posts/welcome-to-jekyll</id><content type="html" xml:base="https://demoofbug.github.io/posts/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;software&quot;]" /><category term="welcome" /><category term="jekyll" /><category term="blog" /><category term="fun" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">欢迎使用博客</title><link href="https://demoofbug.github.io/posts/welcome-to-blog.html" rel="alternate" type="text/html" title="欢迎使用博客" /><published>2019-06-07T07:51:55+08:00</published><updated>2019-06-07T07:51:55+08:00</updated><id>https://demoofbug.github.io/posts/welcome-to-blog</id><content type="html" xml:base="https://demoofbug.github.io/posts/welcome-to-blog.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;asciidoc&quot;]" /><category term="welcome" /><category term="jekyll" /><category term="blog" /><category term="fun" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Harry Potter and the Deathly Hallows</title><link href="https://demoofbug.github.io/posts/harry-potter-deathly-hallows.html" rel="alternate" type="text/html" title="Harry Potter and the Deathly Hallows" /><published>2019-01-02T03:16:49+08:00</published><updated>2019-01-02T03:16:49+08:00</updated><id>https://demoofbug.github.io/posts/harry-potter-deathly-hallows</id><content type="html" xml:base="https://demoofbug.github.io/posts/harry-potter-deathly-hallows.html">&lt;p&gt;As he climbs into the sidecar of Hagrid’s motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is now broken, but he cannot keep hiding.&lt;/p&gt;
+
+&lt;p&gt;The Dark Lord is breathing fear into everything Harry loves, and to stop him Harry will have to find and destroy the remaining Horcruxes. The final battle must begin - Harry must stand and face his enemy. These new editions of the classic and internationally bestselling, multi-award-winning series feature instantly pick-up-able new jackets by Jonny Duddle, with huge child appeal, to bring Harry Potter to the next generation of readers.&lt;/p&gt;
+
+&lt;p&gt;It’s time to PASS THE MAGIC ON …&lt;/p&gt;</content><author><name>J. K. Rowling</name></author><category term="[&quot;jekyll&quot;]" /><category term="Fantasy" /><category term="Magic" /><summary type="html">As he climbs into the sidecar of Hagrid’s motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is now broken, but he cannot keep hiding.</summary></entry><entry><title type="html">Harry Potter and the Philosopher’s Stone</title><link href="https://demoofbug.github.io/posts/harry-potter-philosophers-stone.html" rel="alternate" type="text/html" title="Harry Potter and the Philosopher's Stone" /><published>2018-12-02T03:16:49+08:00</published><updated>2018-12-02T03:16:49+08:00</updated><id>https://demoofbug.github.io/posts/harry-potter-philosophers-stone</id><content type="html" xml:base="https://demoofbug.github.io/posts/harry-potter-philosophers-stone.html">&lt;p&gt;Prepare to be spellbound by Jim Kay’s dazzling depiction of the wizarding world and much loved characters in this full-colour illustrated hardback edition of the nation’s favourite children’s book - Harry Potter and the Philosopher’s Stone.&lt;/p&gt;
+
+&lt;p&gt;Brimming with rich detail and humour that perfectly complements J.K. Rowling’s timeless classic, Jim Kay’s glorious illustrations will captivate fans and new readers alike. When a letter arrives for unhappy but ordinary Harry Potter, a decade-old secret is revealed to him that apparently he’s the last to know. His parents were wizards, killed by a Dark Lord’s curse when Harry was just a baby, and which he somehow survived. Leaving his unsympathetic aunt and uncle for Hogwarts School of Witchcraft and Wizardry, Harry stumbles upon a sinister mystery when he finds a three-headed dog guarding a room on the third floor. Then he hears of a missing stone with astonishing powers, which could be valuable, dangerous - or both.&lt;/p&gt;
+
+&lt;p&gt;An incredible adventure is about to begin!&lt;/p&gt;</content><author><name>J. K. Rowling</name></author><category term="[&quot;jekyll&quot;]" /><category term="Fantasy" /><category term="Magic" /><summary type="html">Prepare to be spellbound by Jim Kay’s dazzling depiction of the wizarding world and much loved characters in this full-colour illustrated hardback edition of the nation’s favourite children’s book - Harry Potter and the Philosopher’s Stone.</summary></entry><entry><title type="html">Sword of Destiny</title><link href="https://demoofbug.github.io/posts/sword-of-destiny.html" rel="alternate" type="text/html" title="Sword of Destiny" /><published>2018-11-12T03:16:49+08:00</published><updated>2018-11-12T03:16:49+08:00</updated><id>https://demoofbug.github.io/posts/sword-of-destiny</id><content type="html" xml:base="https://demoofbug.github.io/posts/sword-of-destiny.html">&lt;p&gt;Geralt is a witcher, a man whose magic powers, enhanced by long training and a mysterious elixir, have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary murderer: his targets are the multifarious monsters and vile fiends that ravage the land and attack the innocent.&lt;/p&gt;
+
+&lt;p&gt;He roams the country seeking assignments, but gradually comes to realise that while some of his quarry are unremittingly vile, vicious grotesques, others are the victims of sin, evil or simple naivety.&lt;/p&gt;
+
+&lt;p&gt;In this collection of short stories, following the adventures of the hit collection THE LAST WISH, join Geralt as he battles monsters, demons and prejudices alike …&lt;/p&gt;</content><author><name>Andrzej Sapkowski</name></author><category term="[&quot;jekyll&quot;]" /><category term="Fantasy" /><category term="Knights" /><summary type="html">Geralt is a witcher, a man whose magic powers, enhanced by long training and a mysterious elixir, have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary murderer: his targets are the multifarious monsters and vile fiends that ravage the land and attack the innocent.</summary></entry><entry><title type="html">Ready Player One</title><link href="https://demoofbug.github.io/posts/ready-player-one.html" rel="alternate" type="text/html" title="Ready Player One" /><published>2018-08-02T03:16:49+08:00</published><updated>2018-08-02T03:16:49+08:00</updated><id>https://demoofbug.github.io/posts/ready-player-one</id><content type="html" xml:base="https://demoofbug.github.io/posts/ready-player-one.html">&lt;p&gt;It’s the year 2044, and the real world has become an ugly place. We’re out of oil. We’ve wrecked the climate. Famine, poverty, and disease are widespread.&lt;/p&gt;
+
+&lt;p&gt;Like most of humanity, Wade Watts escapes this depressing reality by spending his waking hours jacked into the OASIS, a sprawling virtual utopia where you can be anything you want to be, where you can live and play and fall in love on any of ten thousand planets. And like most of humanity, Wade is obsessed by the ultimate lottery ticket that lies concealed within this alternate reality: OASIS founder James Halliday, who dies with no heir, has promised that control of the OASIS - and his massive fortune - will go to the person who can solve the riddles he has left scattered throughout his creation.&lt;/p&gt;
+
+&lt;p&gt;For years, millions have struggled fruitlessly to attain this prize, knowing only that the riddles are based in the culture of the late twentieth century. And then Wade stumbles onto the key to the first puzzle. Suddenly, he finds himself pitted against thousands of competitors in a desperate race to claim the ultimate prize, a chase that soon takes on terrifying real-world dimensions - and that will leave both Wade and his world profoundly changed.&lt;/p&gt;</content><author><name>Ernest Cline</name></author><category term="[&quot;jekyll&quot;]" /><category term="Contemporary" /><category term="Fiction" /><category term="Thrillers" /><category term="Adventure" /><category term="Science Fiction" /><summary type="html">It’s the year 2044, and the real world has become an ugly place. We’re out of oil. We’ve wrecked the climate. Famine, poverty, and disease are widespread.</summary></entry><entry><title type="html">Mistborn Trilogy : The Final Empire, the Well of Ascension, the Hero of Ages</title><link href="https://demoofbug.github.io/posts/mistborn-trilogy.html" rel="alternate" type="text/html" title="Mistborn Trilogy : The Final Empire, the Well of Ascension, the Hero of Ages" /><published>2018-01-02T03:16:49+08:00</published><updated>2018-01-02T03:16:49+08:00</updated><id>https://demoofbug.github.io/posts/mistborn-trilogy</id><content type="html" xml:base="https://demoofbug.github.io/posts/mistborn-trilogy.html">&lt;p&gt;A boxed set of the landmark fantasy from Brandon Sanderson, the man credited with breathing fresh life into Robert Jordan’s WHEEL OF TIME.&lt;/p&gt;
+
+&lt;p&gt;An epic fantasy set in a world where the Dark Lord has gained dominion over the world. A world of ash and pain. A world subjugated. But a world where magic can be drawn from metals. A world waiting for a new heroine, a new hope.&lt;/p&gt;
+
+&lt;p&gt;A word of mouth bestseller in the USA Brandon Sanderson’s Mistborn trilogy have now become a massive hit in the UK, introducing readers to the work of one of the genre’s great talents. A master of world building, sweeping plots, believable characters and engrossing magic systems.&lt;/p&gt;</content><author><name>Brandon Sanderson</name></author><category term="[&quot;jekyll&quot;]" /><category term="Fantasy" /><category term="Magic" /><category term="Heroes" /><summary type="html">A boxed set of the landmark fantasy from Brandon Sanderson, the man credited with breathing fresh life into Robert Jordan’s WHEEL OF TIME.</summary></entry><entry><title type="html">The Terry Pratchett Diary 2017</title><link href="https://demoofbug.github.io/posts/terry-pratchet-diary-2017.html" rel="alternate" type="text/html" title="The Terry Pratchett Diary 2017" /><published>2017-12-13T03:16:49+08:00</published><updated>2017-12-13T03:16:49+08:00</updated><id>https://demoofbug.github.io/posts/terry-pratchet-diary-2017</id><content type="html" xml:base="https://demoofbug.github.io/posts/terry-pratchet-diary-2017.html">&lt;p&gt;Sir Terry Pratchett left us, far too early, in March 2015. To celebrate his life and works, we’ve given over the 2017 Discworld Diary - which will be a perennial diary - to remembrances and tributes from some of those who knew and loved him and his extraordinary body of work.&lt;/p&gt;
+
+&lt;p&gt;Contributors include Neil Gaiman, A S Byatt, Terry Pratchett’s literary agent Colin Smythe, co-author of the Long Earth books Stephen Baxter, famed bookseller Rog Peyton, and many more.&lt;/p&gt;
+
+&lt;p&gt;With an introduction from his daughter Rhianna Pratchett and an afterword from longtime friend and colleague Rob Wilkins.&lt;/p&gt;</content><author><name>Terry Pratchett</name></author><category term="[&quot;jekyll&quot;]" /><category term="Fantasy" /><category term="Humor" /><category term="B+W" /><summary type="html">Sir Terry Pratchett left us, far too early, in March 2015. To celebrate his life and works, we’ve given over the 2017 Discworld Diary - which will be a perennial diary - to remembrances and tributes from some of those who knew and loved him and his extraordinary body of work.</summary></entry><entry><title type="html">Virgins: An Outlander Short Story</title><link href="https://demoofbug.github.io/posts/virgins-outlander-short-story.html" rel="alternate" type="text/html" title="Virgins: An Outlander Short Story" /><published>2016-11-28T03:16:49+08:00</published><updated>2016-11-28T03:16:49+08:00</updated><id>https://demoofbug.github.io/posts/virgins-outlander-short-story</id><content type="html" xml:base="https://demoofbug.github.io/posts/virgins-outlander-short-story.html">&lt;p&gt;FIND OUT WHAT HAPPENED BEFORE JAMIE MET CLAIRE IN THIS BRILLIANT NEW OUTLANDER SHORT STORY.&lt;/p&gt;
+
+&lt;p&gt;1740: Young Jamie Fraser has left Scotland and, with his best friend Ian Murray, is running with a band of mercenaries in France.&lt;/p&gt;
+
+&lt;p&gt;Both men have good reason not to go back to their homeland: both are nursing wounds, and despite their best efforts to remedy the situation, both are still virgins. So when a Jewish doctor hires them to escort his granddaughter to Paris, they readily agree. Both men are instantly drawn to the beautiful young lady.&lt;/p&gt;
+
+&lt;p&gt;What neither know is that their lives and their friendships are about to become infinitely more complicated - and a lot more dangerous…&lt;/p&gt;</content><author><name>Diana Gabaldon</name></author><category term="[&quot;software&quot;]" /><category term="Historical" /><category term="Adventure" /><category term="Romance" /><category term="jekyll" /><summary type="html">FIND OUT WHAT HAPPENED BEFORE JAMIE MET CLAIRE IN THIS BRILLIANT NEW OUTLANDER SHORT STORY.</summary></entry></feed>
